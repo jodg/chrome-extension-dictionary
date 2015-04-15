@@ -1,0 +1,24 @@
+{
+  "name": "Dictionary",
+  "description": "Kingsoft PowerWord interface based on.",
+  "icons": {"128": "dictionary_enable.png"},
+  "version": "0.1",
+  "background": {"scripts": ["background.js"]},
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+        "jquery-1.11.2.min.js",
+        "main.js"
+      ],
+      "css": ["main.css"]
+    }
+  ],
+  "browser_action": {
+    "name": "Kingsoft PowerWord interface based on.",
+    "default_icon": {
+      "128": "dictionary_enable.png"
+    }
+  },
+  "manifest_version": 2
+}

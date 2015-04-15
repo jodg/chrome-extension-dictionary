@@ -1,0 +1,50 @@
+#dialog_dictionary_modal_dialog {
+    background: #fef5cb;
+    border: #333333 solid 1px;
+    border-radius: 10px;
+    position: absolute;
+    font-size: 12px;
+    z-index: 11;
+    display: none;
+    /*width: auto;*/
+}
+
+.modal-header {
+}
+
+#dialog_dictionary_modal_body {
+    padding: 10px;
+}
+
+.btn-close:hover {
+    color: #757575;
+}
+
+.btn-close {
+    cursor:pointer;
+    color: #b9b6bc;
+    font-size: 20px;
+    /*text-decoration: none;*/
+    position: absolute;
+    right: 5px;
+    top: 0;
+}
+
+#dialog_dictionary_modal_body p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#dialog_dictionary_modal_body span{
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.dialog_dictionary_modal_audio{
+    cursor:pointer;
+    color: #2635bf;
+}
+.dialog_dictionary_modal_means{
+    margin-left: 10px;
+}
